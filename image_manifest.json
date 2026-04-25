@@ -1,0 +1,297 @@
+{
+  "$schema_version": "1.0",
+  "$description": "Yogibo 제품별 이미지 인덱스. curated_hero는 unloaded studio shot 우선 추천. products_folder는 추가 후보들의 위치.",
+  "$last_updated": "2026-04-25",
+  "$paths": {
+    "products_root": "/Users/jay/Yogibo/products",
+    "keyring_inputs": "/Users/jay/Yogibo/keyring/inputs"
+  },
+  "shapes": {
+    "max": {
+      "names": {"en": "Max", "jp": "ヨギボー マックス", "kr": "요기보 맥스", "us_alias": null, "jp_handle": "max"},
+      "category": "sofa_pill",
+      "size_class": "huge_sofa",
+      "dimensions_cm": [170, 65, 55],
+      "shape_summary": "Long pill/cylinder with rounded ends, single seam, no handle, no character. Like a giant body pillow.",
+      "best_camera_angle": "Lying-flat 3/4 from one end",
+      "curated_hero": "keyring_inputs/max.jpg",
+      "products_folders": ["소파/요기보 맥스", "소파/요기보 맥스 프리미엄", "소파/럭스 맥스", "소파/줄라 맥스"],
+      "notes": "All variants (Lux/Mix/Premium/Zoola) share same shape"
+    },
+    "mini": {
+      "names": {"en": "Mini", "jp": "ヨギボー ミニ", "kr": "요기보 미니", "us_alias": null, "jp_handle": "min"},
+      "category": "sofa_pill",
+      "size_class": "chair",
+      "dimensions_cm": [95, 65, 55],
+      "shape_summary": "Short pill — same silhouette as Max but ~half length. Nearly cubic when stood up.",
+      "best_camera_angle": "Standing-upright 3/4 OR floor-lying 3/4",
+      "curated_hero": "keyring_inputs/min.jpg",
+      "curated_hero_quality": "POOR — child sitting on it deforms shape; replace recommended",
+      "products_folders": ["소파/요기보 미니", "소파/줄라 미니"],
+      "notes": "Most marketing photos show people sitting; finding clean unloaded shot is hard"
+    },
+    "midi": {
+      "names": {"en": null, "jp": "ヨギボー ミディ", "kr": "요기보 미디", "us_alias": null, "jp_handle": "mid"},
+      "category": "sofa_pill",
+      "size_class": "loveseat",
+      "dimensions_cm": [135, 65, 55],
+      "shape_summary": "Pill between Mini and Max length. Visually nearly identical to Lite — disambiguate by SKU.",
+      "best_camera_angle": "Lying-flat 3/4",
+      "curated_hero": "keyring_inputs/mid.jpg",
+      "products_folders": ["소파/요기보 미디", "소파/줄라 미디"],
+      "notes": "JP currently clearance. No US equivalent. Lite/Midi visually indistinguishable."
+    },
+    "lite": {
+      "names": {"en": "Short (US, older)", "jp": "ヨギボー ライト", "kr": "요기보 슬림", "us_alias": "Short", "jp_handle": "sht"},
+      "category": "sofa_pill",
+      "size_class": "chair",
+      "dimensions_cm": [135, 60, 55],
+      "shape_summary": "Slim mid-length pill. Same construction as Max but slimmer cross-section.",
+      "best_camera_angle": "Standing or lying 3/4",
+      "curated_hero": "keyring_inputs/sht.jpg",
+      "products_folders": ["소파/요기보 슬림", "소파/럭스 슬림", "소파/줄라 슬림", "소파/요기보 카카오프렌즈 슬림"],
+      "notes": "US 'Short', JP 'Lite', KR '슬림' — same product"
+    },
+    "drop": {
+      "names": {"en": "Pod X", "jp": "ヨギボー ドロップ", "kr": "요기보 드롭", "us_alias": "Pod X", "jp_handle": "drp"},
+      "category": "sofa_teardrop",
+      "size_class": "chair",
+      "dimensions_cm": [75, 85, 85],
+      "shape_summary": "Vertical teardrop/onion shape with prominent fabric carrying handle on top, vertical pumpkin-segment seams.",
+      "best_camera_angle": "3/4 slightly above eye level (handle + base curve in same frame)",
+      "curated_hero": "keyring_inputs/drp.png",
+      "products_folders": ["소파/요기보 드롭", "소파/럭스 드롭", "소파/줄라 드롭", "소파/요기보 카카오프렌즈 드롭", "소파/믹스 드롭"],
+      "notes": "⚠️ US sells this as 'Pod X' — yogibo.com has no 'Drop'. Don't confuse with Pod (different product)."
+    },
+    "pod": {
+      "names": {"en": null, "jp": "ヨギボー ポッド", "kr": "요기보 팟", "us_alias": null, "jp_handle": "pod"},
+      "category": "sofa_sphere",
+      "size_class": "floor_cushion",
+      "dimensions_cm": [85, 95, 95],
+      "shape_summary": "Squat sphere/squashed-ball with small drawstring loop on top. Rounder/squatter than Drop.",
+      "best_camera_angle": "Side-on at floor level",
+      "curated_hero": "keyring_inputs/pod.jpg",
+      "products_folders": ["소파/요기보 팟", "소파/줄라 팟"],
+      "notes": "⚠️ NO US equivalent. US 'Pod X' is the Drop, not this."
+    },
+    "pyramid": {
+      "names": {"en": null, "jp": "ヨギボー ピラミッド", "kr": "요기보 피라미드", "us_alias": null, "jp_handle": "prm"},
+      "category": "sofa_pyramid",
+      "size_class": "floor_cushion",
+      "dimensions_cm": [65, 75, 75],
+      "shape_summary": "Three-sided rounded pyramid (rounded tetrahedron). Three triangular fabric panels meeting at soft point.",
+      "best_camera_angle": "High 3/4 from above (all three faces visible)",
+      "curated_hero": "keyring_inputs/prm.jpg",
+      "products_folders": ["소파/요기보 피라미드", "소파/줄라 피라미드", "소파/요기보 카카오프렌즈 피라미드"],
+      "notes": "JP/KR only. No US equivalent."
+    },
+    "lounger": {
+      "names": {"en": "Lounger", "jp": "ヨギボー ラウンジャー", "kr": "요기보 라운저", "us_alias": null, "jp_handle": "lgr"},
+      "category": "sofa_fin",
+      "size_class": "personal_recliner",
+      "dimensions_cm": [80, 75, 85],
+      "shape_summary": "Organic shark-fin/comma shape with sewn piped rim that maintains the curve even unloaded.",
+      "best_camera_angle": "Pure side view (silhouette photo)",
+      "curated_hero": "keyring_inputs/lgr.jpg",
+      "products_folders": ["소파/요기보 라운저", "소파/럭스 라운저", "소파/줄라 라운저", "소파/믹스 라운저"],
+      "notes": "Easiest Yogibo to reconstruct from a single photo (firm piping holds shape)."
+    },
+    "doublemax": {
+      "names": {"en": "Double Max", "jp": "ヨギボー ギガ マックス", "kr": "요기보 더블 맥스", "us_alias": "Double Max", "jp_handle": "dbl"},
+      "category": "sofa_pill_double",
+      "size_class": "huge_sofa",
+      "dimensions_cm": [170, 140, 55],
+      "shape_summary": "Wide pill, twice as wide as Max. Two Max inners joined laterally inside one cover.",
+      "best_camera_angle": "Lying-flat top-down or 3/4 to compare width",
+      "curated_hero": "keyring_inputs/dbl.jpg",
+      "products_folders": ["소파/요기보 더블 맥스"],
+      "notes": "Naming pitfall: US 'Double Max' = JP 'Giga Max' = KR '더블 맥스'. Different from JP 'Mega Max' (which is wide-Lite, not wide-Max)."
+    },
+    "ottoman": {
+      "names": {"en": "Luxe Ottoman", "jp": "ラックス オットマン", "kr": "럭스 오토만", "us_alias": "Luxe Ottoman", "jp_handle": "lux-omn"},
+      "category": "footstool",
+      "size_class": "footrest",
+      "dimensions_cm": [35, 55, 55],
+      "shape_summary": "Soft cube/short-cylinder footstool. Flat top and bottom, low drum side panel.",
+      "best_camera_angle": "3/4 from slightly above (top, side, base edges visible)",
+      "curated_hero": "keyring_inputs/lux-omn.jpg",
+      "products_folders": ["소파/럭스 오토만"],
+      "notes": "Standard Ottoman exists in JP only ('omn'); KR has Luxe variant only."
+    },
+    "prime": {
+      "names": {"en": null, "jp": null, "kr": "요기보 프라임", "us_alias": null, "jp_handle": null},
+      "category": "sofa_log",
+      "size_class": "huge_sofa",
+      "dimensions_cm": [180, 60, 50],
+      "shape_summary": "Extra-long horizontal log/bolster. Low and very long, no handle, no segmentation.",
+      "best_camera_angle": "Pure side view",
+      "curated_hero": "keyring_inputs/prime.jpg",
+      "products_folders": ["소파/요기보 프라임"],
+      "notes": "⚠️ KR-EXCLUSIVE. SKU FUBST102. No JP or US equivalent."
+    },
+    "hugibo": {
+      "names": {"en": "Hugibo", "jp": "ハギボー", "kr": "허기보", "us_alias": null, "jp_handle": "hgb"},
+      "category": "character",
+      "size_class": "kid_buddy",
+      "dimensions_cm": [115, 60, 50],
+      "shape_summary": "Humanoid bowling-pin body with smaller round head, two short side arms, printed face (eyes + smiling mouth) on front panel.",
+      "best_camera_angle": "Front view, full body, arms visible (face square to camera)",
+      "curated_hero": "keyring_inputs/hgb.jpg",
+      "products_folders": ["소파/허기보"],
+      "notes": "Only Yogibo with defined character silhouette. No US."
+    },
+    "bubble": {
+      "names": {"en": null, "jp": "ヨギボー バブル", "kr": null, "us_alias": null, "jp_handle": "bbl"},
+      "category": "sofa_drum",
+      "size_class": "kid_seat",
+      "dimensions_cm": [75, 70, 70],
+      "shape_summary": "Two-tone short cylinder/drum (NOT spherical despite name). Top half + bottom half different colors.",
+      "best_camera_angle": "Side-on at eye level (both color zones visible)",
+      "curated_hero": null,
+      "products_folders": [],
+      "notes": "JP clearance only. Limited availability."
+    },
+    "support": {
+      "names": {"en": "Support", "jp": "ヨギボー サポート", "kr": "요기보 서포트", "us_alias": "Support", "jp_handle": "sup"},
+      "category": "buddy_u",
+      "size_class": "backrest",
+      "dimensions_cm": [90, 70, 30],
+      "shape_summary": "U-shape/horseshoe backrest. Top-down view: thick letter U with two side wings.",
+      "best_camera_angle": "Top-down or high 3/4 (U opening visible)",
+      "curated_hero": "keyring_inputs/sup.png",
+      "products_folders": ["바디필로우/요기보 서포트", "바디필로우/럭스 서포트", "바디필로우/줄라 서포트"],
+      "notes": "Available in all three regions"
+    },
+    "rollmax": {
+      "names": {"en": "Roll Max", "jp": "ヨギボー ロール マックス", "kr": "요기보 롤 맥스", "us_alias": "Roll Max", "jp_handle": "rol"},
+      "category": "buddy_cylinder",
+      "size_class": "body_pillow",
+      "dimensions_cm": [165, 25, 25],
+      "shape_summary": "Long uniform-diameter cylinder/tube. Smooth, flat circular end caps. Like a giant rolling pin.",
+      "best_camera_angle": "Lying on floor 3/4, one end facing camera",
+      "curated_hero": "keyring_inputs/rol.png",
+      "products_folders": ["바디필로우/럭스 롤 맥스", "바디필로우/믹스 롤 맥스", "바디필로우/요기보 롤 맥스 프리미엄"],
+      "notes": null
+    },
+    "rollmidi": {
+      "names": {"en": null, "jp": null, "kr": "요기보 롤 미디", "us_alias": null, "jp_handle": null},
+      "category": "buddy_cylinder",
+      "size_class": "body_pillow",
+      "dimensions_cm": [120, 25, 25],
+      "shape_summary": "Medium cylinder, same proportions as Roll Max but shorter (~120cm).",
+      "best_camera_angle": "Side at floor level",
+      "curated_hero": null,
+      "products_folders": ["바디필로우/요기보 롤 미디"],
+      "notes": "KR-prominent"
+    },
+    "rollmini": {
+      "names": {"en": null, "jp": null, "kr": "요기보 롤 미니", "us_alias": null, "jp_handle": null},
+      "category": "buddy_cylinder",
+      "size_class": "lumbar_bolster",
+      "dimensions_cm": [50, 25, 25],
+      "shape_summary": "Short stubby cylinder. Almost a thick disc.",
+      "best_camera_angle": "Side-on at floor level",
+      "curated_hero": null,
+      "products_folders": ["바디필로우/요기보 롤 미니"],
+      "notes": "KR-prominent"
+    },
+    "caterpillar": {
+      "names": {"en": "Caterpillar Roll Long", "jp": "ヨギボー キャタピラー ロール", "kr": "카터필러 롤", "us_alias": "Caterpillar Roll", "jp_handle": "ctp"},
+      "category": "buddy_cylinder_segmented",
+      "size_class": "long_body_pillow",
+      "dimensions_cm": [240, 20, 20],
+      "shape_summary": "Extra-long thin cylinder with visible alternating-color ring panels along its length. Often draped in S-curve.",
+      "best_camera_angle": "Laid out straight, full length visible",
+      "curated_hero": "keyring_inputs/ctp.jpg",
+      "products_folders": ["바디필로우/카터필러 롤 맥스", "바디필로우/카터필러 롤 미디"],
+      "notes": "Hard to find straight-laid photos; most show curved-over-sofa configuration"
+    },
+    "rollmate_dog": {
+      "names": {"en": "Roll Mate (Dog)", "jp": null, "kr": "도그 롤 메이트", "us_alias": "Roll Mates Dog", "jp_handle": null},
+      "category": "buddy_animal",
+      "size_class": "kid_pillow",
+      "dimensions_cm": [100, 25, 25],
+      "shape_summary": "Roll Mini-style cylinder body with small dog plush head (floppy ears, brown-and-cream).",
+      "best_camera_angle": "Side view, head facing camera-left or right",
+      "curated_hero": "keyring_inputs/rm-dog.jpg",
+      "products_folders": ["바디필로우/도그 롤 메이트"],
+      "notes": null
+    },
+    "rollmate_fox": {
+      "names": {"en": "Roll Mate (Fox)", "jp": null, "kr": "팍스 롤 메이트", "us_alias": "Roll Mates Fox", "jp_handle": null},
+      "category": "buddy_animal",
+      "size_class": "kid_pillow",
+      "dimensions_cm": [100, 25, 25],
+      "shape_summary": "Cylinder body with pointed fox ears and bushy tail. Orange/white.",
+      "best_camera_angle": "Side view",
+      "curated_hero": "keyring_inputs/rm-fox.jpg",
+      "products_folders": ["바디필로우/팍스 롤 메이트"],
+      "notes": null
+    },
+    "rollmate_unicorn": {
+      "names": {"en": "Roll Mate (Unicorn)", "jp": null, "kr": "유니콘 롤 메이트", "us_alias": "Roll Mates Unicorn", "jp_handle": null},
+      "category": "buddy_animal",
+      "size_class": "kid_pillow",
+      "dimensions_cm": [100, 25, 25],
+      "shape_summary": "Cylinder body with horn on head, mane, tail. Pastel pink/purple.",
+      "best_camera_angle": "Side view",
+      "curated_hero": "keyring_inputs/rm-uni.jpg",
+      "products_folders": ["바디필로우/유니콘 롤 메이트"],
+      "notes": null
+    },
+    "rollmate_panda": {
+      "names": {"en": null, "jp": null, "kr": "판다 롤 메이트", "us_alias": null, "jp_handle": null},
+      "category": "buddy_animal",
+      "size_class": "kid_pillow",
+      "dimensions_cm": [100, 25, 25],
+      "shape_summary": "Black-and-white cylinder body with round panda ears. No tail.",
+      "best_camera_angle": "Side view",
+      "curated_hero": "keyring_inputs/rm-pnd.jpg",
+      "products_folders": ["바디필로우/판다 롤 메이트"],
+      "notes": null
+    },
+    "rollmate_alligator": {
+      "names": {"en": "Roll Mate (Alligator)", "jp": null, "kr": "앨리게이터 롤 메이트", "us_alias": "Roll Mates Alligator", "jp_handle": null},
+      "category": "buddy_animal",
+      "size_class": "kid_pillow",
+      "dimensions_cm": [100, 25, 25],
+      "shape_summary": "Green cylinder body with long crocodile snout (segmented teeth print), back ridges, tail.",
+      "best_camera_angle": "Side view",
+      "curated_hero": "keyring_inputs/rm-alg.jpg",
+      "products_folders": ["바디필로우/앨리게이터 롤 메이트"],
+      "notes": null
+    },
+    "rollmate_axolotl": {
+      "names": {"en": null, "jp": null, "kr": "우파루파 롤 메이트", "us_alias": null, "jp_handle": null},
+      "category": "buddy_animal",
+      "size_class": "kid_pillow",
+      "dimensions_cm": [100, 25, 25],
+      "shape_summary": "Pale lavender cylinder body with frilly external gills on sides of head, small leg fins.",
+      "best_camera_angle": "Side view",
+      "curated_hero": "keyring_inputs/rm-axl.png",
+      "products_folders": ["바디필로우/우파루파 롤 메이트"],
+      "notes": "⚠️ KR-EXCLUSIVE. Frilly gills are the most distinctive feature among Roll Mates."
+    },
+    "ghost": {
+      "names": {"en": null, "jp": "ヨギボー ゴースト", "kr": null, "us_alias": null, "jp_handle": "psup"},
+      "category": "buddy_backrest",
+      "size_class": "backrest",
+      "dimensions_cm": [98, 75, 50],
+      "shape_summary": "Tall flat-faced backrest with rounded top edge. NOT ghost-shaped — looks like a soft tombstone.",
+      "best_camera_angle": "Side view at chair height",
+      "curated_hero": null,
+      "products_folders": [],
+      "notes": "JP-only. Customers may expect cute ghost figure based on name; actual product is back-support furniture."
+    }
+  },
+  "variant_lines": {
+    "$description": "Cover/material variants — do NOT change the inflatable inner shape",
+    "lux": {"jp_prefix": "ラックス", "jp_handle_prefix": "lux-", "description": "Premium velvet/ribbed fabric"},
+    "zoola": {"jp_prefix": "ズーラ", "jp_handle_prefix": "z", "kr_prefix": "줄라", "description": "Outdoor fabric"},
+    "rainbow": {"jp_handle_prefix": "r", "description": "Rainbow-printed cover"},
+    "premium": {"jp_text": "プレミアム", "kr_text": "프리미엄", "description": "Higher inner-bead density, same outer shape"},
+    "premium_plus": {"jp_text": "プレミアム プラス", "kr_text": "프리미엄 플러스", "description": "Highest density, same shape"},
+    "kakao_friends": {"kr_only": true, "kr_text": "카카오프렌즈", "description": "KR-exclusive licensed cover prints (Drop/Slim/Pyramid only)"},
+    "mix": {"kr_text": "믹스", "description": "Multi-panel pattern cover"}
+  }
+}
