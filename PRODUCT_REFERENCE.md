@@ -1,5 +1,7 @@
 # Yogibo Product Shape Reference
 
+> 정본: `~/Yogibo/knowledge/PRODUCT_REFERENCE.md`. 수정은 항상 knowledge 쪽에서 하고 `cp ~/Yogibo/knowledge/PRODUCT_REFERENCE.md ~/Yogibo/keyring/PRODUCT_REFERENCE.md`로 키링 사본 동기화. (이 배너는 양쪽 파일 모두에 동일하게 들어가 있어 cp로 덮어써도 유지됨.)
+
 A 3D-shape reference for the Yogibo keyring printing project. Goal: given any product photo from the US, JP, or KR sites, identify the **shape family** and decide whether the photo shows the unloaded silhouette (good for Meshy single-image reconstruction) or a deformed-by-user state (bad for reconstruction).
 
 ---

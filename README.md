@@ -39,6 +39,7 @@
 2. `PRODUCT_REFERENCE.md`도 함께 갱신 (필요 시)
 3. `$last_updated` 날짜 갱신
 4. 큰 변경은 git commit으로 히스토리 보존 권장
+5. `PRODUCT_REFERENCE.md`를 수정한 경우 `cp PRODUCT_REFERENCE.md ~/Yogibo/keyring/PRODUCT_REFERENCE.md`로 키링 사본 동기화 (정본은 항상 이 폴더, 키링 쪽은 읽기 전용 사본)
 
 ## 누락 데이터 (TODO)
 
